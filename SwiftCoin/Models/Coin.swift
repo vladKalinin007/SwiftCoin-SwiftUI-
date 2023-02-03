@@ -9,7 +9,6 @@ import Foundation
 
 import Foundation
 
-// MARK: - Welcome
 struct Coin: Codable, Identifiable {
     let id, symbol, name: String
     let image: String
@@ -56,7 +55,6 @@ struct Coin: Codable, Identifiable {
     }
 }
 
-// MARK: - SparklineIn7D
 struct SparklineIn7D: Codable {
     let price: [Double]
 }
